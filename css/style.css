@@ -1,0 +1,446 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: raleway;
+}
+nav::-webkit-scrollbar{
+	display: none;
+}
+form::-webkit-scrollbar{
+	width: 9px;
+	background-color: #e7e7e7;
+	border-radius: 5px;
+}
+form::-webkit-scrollbar-thumb{
+	background-color: #1bbc9b;
+	border-radius: 5px;
+}
+.tinggi::-webkit-scrollbar{
+	width: 9px;
+	background-color: #e7e7e7;
+	border-radius: 5px;
+}
+.tinggi::-webkit-scrollbar-thumb{
+	background-color: #1bbc9b;
+	border-radius: 5px;
+}
+nav{
+	width: 20%;
+	z-index: 2;
+	height: 100%;
+	position: fixed;
+	float: left;
+	background-color: #1bbc9b;
+	box-shadow: 0px 8px 10px 10px rgba(0,0,0,0.2);
+	overflow-y: auto;
+}
+li{
+	display: block;
+}
+li a{
+	display: block;
+	padding: 0px 30px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #1bbc9b;
+	color: white;
+	transition: border 0.3s;
+	font-family: lato light;
+	text-shadow: 1px 1px 1px #13866f;
+}
+li a:hover, li a:hover > .setli{
+	color: #d9d9d9;
+}
+li a:hover{
+	border-left: 7px solid #e7e7e7;
+}
+.setli{
+	color: white;
+	line-height: 50px;
+	display: block;
+	padding: 0 10px;
+}
+#logo{
+	display: block;
+	height: 165px;
+	width: 100%;
+}
+#logo img{
+	display: block;
+	width: 100px;
+	height: auto;
+	margin: 30px auto 5px auto;
+}
+#logo a{
+	color: white;
+	font-size: 14pt;
+	font-family: lato;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+.garis{
+	border-bottom: 1px solid #d9d9d9;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.jaraklogo{
+	margin-top: 15px;
+}
+.footer{
+	color: white;
+	font-size: 11pt;
+	font-family: lato light;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 115px 0 10px 0;
+}
+.sidebar{
+	display: block;
+	width: 20%;
+	float: left;
+	z-index: 3;
+	overflow-y: scroll;
+}
+.mainbar{
+	width: 80.1%;
+	height: 100%;
+	background-color: #e7e7e7;
+	display: block;
+	float: right;
+	z-index: 2;
+	overflow: hidden;
+}
+header{
+	width: 80%;
+	height: 50px;
+	background-color: #1bbc9b;
+	display: inline-block;
+	position: fixed;
+	
+}
+header .akun{
+	color: white;
+	line-height: 50px;
+	margin-left: 20px;
+	font-size: 13pt;
+	font-family: lato;
+	word-spacing: 3px;
+}
+header .logout{
+	color: white;
+	margin: 11px 20px;
+	padding: 5px 15px;
+	border-radius: 3px;
+	font-size: 10pt;
+	font-family: lato;
+	background-color: red;
+	float: right;
+}
+header .logout i{
+	padding-right: 5px;
+}
+.isi{
+	min-height: 90%;
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+	overflow-y: auto;
+}
+.tempat-tabel{
+	background-color: #bae8de;
+	width: 65%;
+	height: 85%;
+	float: left;
+	border-radius: 5px;
+	border-top: 5px solid #1bbc9b;
+	box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.2);
+}
+.tempat-tabel-cari{
+	background-color: #bae8de;
+	width: 65%;
+	height: 85%;
+	margin: 0 auto;
+	border-radius: 5px;
+	border-top: 5px solid #1bbc9b;
+	box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.2);
+}
+.tempat-cari{
+	background-color: #bae8de;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 29%;
+	height: 16%;
+	float: left;
+	border-radius: 5px;
+	border-top: 5px solid #1bbc9b;
+	box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.2);
+}
+.tempat-cari form{
+	display: block;
+	line-height: 50px;
+	margin: 0 5px 0 0;
+}
+.tempat-cari form input{
+	padding: 7px 30px 7px 10px;
+	border: none;
+	font-family: lato light;
+	width: 90%;
+	margin: 0 15px;
+	margin-right: -10px;
+	border-radius: 3px;
+}
+.tempat-cari form button{
+	left: -20px;
+	position: relative;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 14pt;
+	color: #424242;
+}
+.tempat-cari a{
+	font-family: lato;
+	color: #1bbc9b;
+	margin: 20px 20px 10px 20px;
+	display: block;
+}
+.tempat-input{
+	background-color: #bae8de;
+	margin-left: 20px;
+	width: 29%;
+	height: 65%;
+	float: left;
+	border-radius: 5px;
+	border-top: 5px solid #1bbc9b;
+	box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.2);
+}
+.tempat-edit{
+	background-color: #bae8de;
+	margin: 50px auto;
+	width: 35%;
+	height: 65%;
+	border-radius: 5px;
+	border-top: 5px solid #1bbc9b;
+	box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.2);
+}
+.tempat-input a, .tempat-edit a{
+	font-family: lato;
+	color: #1bbc9b;
+	margin: 20px;
+	display: block;
+}
+.tempat-input form, .tempat-edit form{
+	width: 90%;
+	height: 82%;
+	margin: 10px auto;
+	overflow: auto;
+}
+.tempat-input form input[type="text"],
+.tempat-edit form input[type="text"]{
+	width: 97%;
+	height: 40px;
+	padding: 0 10px;
+	margin: 5px 5px 5px 0;
+	font-family: lato;
+	border-radius: 2px;
+	border: none;
+}
+.tempat-edit form input[type="password"]{
+	width: 97%;
+	height: 40px;
+	padding: 0 10px;
+	margin: 5px 5px 5px 0;
+	font-family: lato;
+	border-radius: 2px;
+	border: none;
+}
+.tempat-input form button,
+.tempat-edit form button{
+	height: 40px;
+	width: 130px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-family: lato;
+	background-color: #232323;
+	border: none;
+	color: white;
+	cursor: pointer;
+	float: right;
+	margin: 10px 10px 10px 0;
+	transition: all 0.5s;
+}
+.tempat-input form button:hover,
+.tempat-edit form button:hover{
+	background-color: #666666;
+}
+.tempat-input form button i,
+.tempat-edit form button i{
+	margin-right: 5px;
+}
+.tempat-tabel .sub,
+.tempat-tabel-cari .sub{
+	font-family: lato;
+	color: #1bbc9b;
+	margin: 20px;
+	display: block;
+}
+.tempat-tabel .tinggi,
+.tempat-tabel-cari .tinggi{
+	height: 85%;
+	width: 95%;
+	display: block;
+	overflow: auto;
+	margin: 0 auto;
+}
+.tempat-tabel table,
+.tempat-tabel-cari table{
+	border-collapse: collapse;
+	width: 99%;
+	height: auto;
+	border: 2px solid #1bbc9b;
+	font-family: lato;
+}
+.tempat-tabel table .no,
+.tempat-tabel-cari table .no{
+	width: 30px;
+	padding: 0 20px;
+}
+.tempat-tabel table td,
+.tempat-tabel-cari table td{
+	height: 40px;
+	width: 350px;
+	border-bottom: 2px solid #1bbc9b;
+	padding: 0 30px;
+	color: #666666;
+}
+.tempat-tabel table .thead td,
+.tempat-tabel-cari table .thead td{
+	background-color: #1bbc9b;
+	color: white;
+}
+tr:hover > td {
+	color: #b3b3b3;
+}
+.act{
+	text-align: left;
+}
+.action1{
+	font-size: 15pt;
+	margin: 0;
+	color: #b3b3b3;
+	margin-right: 13px;
+	cursor: pointer;
+}
+.action1:hover{
+	color: #00ff00;
+}
+.action2{
+	font-size: 15pt;
+	margin: 0;
+	color: #b3b3b3;
+	cursor: pointer;
+}
+.action2:hover{
+	color: red;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #eee;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+.formregister{
+	width: 450px;
+	height: 80vh;
+	background: white;
+	border-radius: 3px;
+	box-shadow: 3px 3px 20px 0px rgba(46,61,73,0.2);
+}
+.formregister form{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.formregister form h1{
+	font-family: lato;
+	margin-bottom: 30px;
+}
+.formregister form input[type = text],
+.formregister form input[type = password]{
+	width: 100%;
+	float: left;
+	padding: 5px;
+	margin: 25px 0;
+	border: none;
+	background: none;
+	border-bottom: 2px solid #eee;
+	/*border-bottom: 2px solid #429ce3;*/
+	transition: border-bottom 0.5s;
+}
+.formregister form input[type = text]:focus,
+.formregister form input[type = password]:focus{
+	outline: none;
+	border-bottom: 2px solid #429ce3;
+}
+.formregister form input[type = submit]{
+	padding: 10px 25px;
+	background: #429ce3;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	float: right;
+	margin-top: 20px;
+	transition: background 0.5s;
+}
+.formregister form input[type = submit]:hover{
+	background: #218cde;
+}
+#notification{
+	width: 300px;
+	height: 90px;
+	background: blue;
+	position: absolute;
+	/*right: 0;*/
+	right: -300px;
+	bottom: 40px;
+
+	background: white;
+	box-shadow: 3px 3px 20px 0px rgba(46,61,73,0.2);
+	cursor: pointer;
+	/*transition: all 0.5s;*/
+}
+#notification .isinotif{
+	width: 95%;
+	height: 100%;
+	overflow: hidden;
+	padding: 15px;
+	float: left;
+}
+#notification .isinotif p{
+	font-size: 11pt;
+}
+#notification .isinotif .headnotif{
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+#notification .isinotif .removenotif{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px;
+	color: red;
+}
